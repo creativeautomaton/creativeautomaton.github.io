@@ -31,10 +31,10 @@ authors:
     external-image: false
     picture: assets/images/james.jpg
     twitter: Cre8tiveCoOp
-width: normal
+width: large
 projects: true
 about: true
-blog: true 
+blog: true
 read-time: true
 show-tags: true
 related: true

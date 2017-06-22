@@ -6,6 +6,7 @@
 @import "base/helpers";
 
 @import "pages/home-blog-projects";
+@import "pages/homepage";
 @import "pages/page";
 @import "pages/post";
 @import "pages/tags";
@@ -22,3 +23,5 @@
 @import "components/side-by-side";
 @import "components/social-links";
 @import "components/spoiler";
+
+@import "components/hero-split";
