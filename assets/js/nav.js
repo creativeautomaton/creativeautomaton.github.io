@@ -16,4 +16,22 @@ $( document ).ready(function() {
         } else { $('.hamburger-container').removeClass('sticky'); }
     });
 
+    $('body').on('click', '.test-data', function(){
+        console.log('clicked testing...');
+        $.ajax({
+            url: "https://creativeautomaton.github.io/data.json",
+            dataType: "jsonp",
+            success: function (returndata){
+                console.log(returndata);
+            },
+            error: function (error){
+                  console.log('failed...');
+                 console.log(error);
+             }
+        });
+
+    });
+
+
+
 });
