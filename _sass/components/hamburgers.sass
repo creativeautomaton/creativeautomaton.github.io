@@ -1,9 +1,16 @@
 
 .hamburger-container
-  position: absolute
+  position: fixed
   top: 0px
   right: 0px
-  padding: 3rem
+  padding: 1rem
+  z-index: 999
+.hamburger--collapse.is-active .hamburger-inner
+  background-color: #fff
+.hamburger--collapse.is-active .hamburger-inner::before
+  background-color: #fff
+.hamburger-container.sticky
+  position: fixed
 
 /*
  * Hamburgers

@@ -4,14 +4,11 @@
    or page.title == "Tags"
    or page.title == "Workers"
 %}{% assign showHeader = true %}{% endif %}
-
-{% include nav.html %}
-
-
+  
 
 {% if showHeader == true %}
-    <header class="header-home {% if site.animation %}animated{% endif %}">
-      
+    <header class="header-home {% if site.animation %} {% endif %}">
+
 
         {% if site.about %}
             <a class="link" href="{{ site.url }}/about">
@@ -23,9 +20,10 @@
             </span>
         {% endif %}
 
-        <h1 class="title">{{ site.name }}</h1>
-        <!-- <h2 class="description">{{ site.bio }}</h2> -->
+        <h1 class="title slideInDown animated">{{ site.name }}</h1>
+        <h2 class="title slideUpDown animated">Co-Operative</h2>
+        <h3 class="description slideInDown animated">{{ site.bio }}</h3>
 
-        {% include social-links.html %}
+
     </header>
 {% endif %}
