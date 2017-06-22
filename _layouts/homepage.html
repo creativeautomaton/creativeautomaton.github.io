@@ -2,9 +2,16 @@
 layout: default
 showHeader: false
 ---
+<div class="hamburger-container">
+    <button class="hamburger hamburger--collapse" type="button">
+      <span class="hamburger-box">
+        <span class="hamburger-inner"></span>
+      </span>
+    </button>
+</div>
 
 {% include header.html %}
-{% include hero-split.html %} 
+{% include hero-split.html %}
 
 {{content}}
 
