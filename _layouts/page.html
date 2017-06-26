@@ -4,6 +4,13 @@ layout: default
 {% include nav.html %}
 {% include header.html %}
 
+{% if page.id == "about"%}
+  {% include about.html %}
+{% endif %}
+{% if page.id == "services"%}
+  {% include services.html %}
+{% endif %}
+
 {{content}}
 
 {% include footer.html %}

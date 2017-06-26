@@ -2,6 +2,31 @@
 $( document ).ready(function() {
     console.log( "Jquery ready!" );
 
+     $.ajax({
+         url: "/data.json",
+         dataType: "json",
+         success: function (data){
+              siteData(data);
+         },
+         error: function (error){
+               console.log('failed...');
+               console.log(error);
+               var data = null;
+          }
+     });
+    function siteData(data){
+         setTimeout(function () {
+             console.log(data);
+         }, 200);
+    }
+    setTimeout(function(){
+      $('.headline').removeClass('hide').addClass('slideInDown animated');
+
+    }, 500);
+   setTimeout(function(){
+      $('.headline').addClass('shrink').slow(400); 
+   }, 5000);
+
     $('body').on('click', '.hamburger', function(){
         $(this).toggleClass('is-active');
         $('.nav, .nav-home').toggleClass('slideInRight hide');
@@ -19,19 +44,18 @@ $( document ).ready(function() {
     $('body').on('click', '.test-data', function(){
         console.log('clicked testing...');
         $.ajax({
-            url: "https://creativeautomaton.github.io/data.json",
-            dataType: "jsonp",
-            success: function (returndata){
-                console.log(returndata);
+            url: "/data.json",
+            dataType: "json",
+            success: function (data){
+                var data = data;
             },
             error: function (error){
                   console.log('failed...');
                  console.log(error);
+                  var data = null;
              }
         });
-
     });
-
 
 
 });

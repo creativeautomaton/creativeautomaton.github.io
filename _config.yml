@@ -1,5 +1,5 @@
 name: Creative Automaton
-bio: Web Automation Services
+bio: Creative Web Automation Services
 description: Creative Automation built to share the profits with automations builders.
 external-image: false
 picture: assets/images/profile.jpg
@@ -27,7 +27,7 @@ authors:
     twitter: johndoe
   jamesfoster:
     name: Creative Automaton
-    bio: Web Automation Services
+    bio: Creative Web Automation Services
     external-image: false
     picture: assets/images/james.jpg
     twitter: Cre8tiveCoOp
