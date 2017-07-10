@@ -24,16 +24,20 @@
 @import "components/social-links";
 @import "components/spoiler";
 
+@import "components/hero";
 @import "components/hero-split";
 @import "components/hamburgers";
 @import "components/mailchimp";
 @import "components/hcard";
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
 
 @import "components/bootstrap";
 @import "components/portfolio";
 
-// font-awesome
+// Animate CSS
+@import "animations/animate";
 
+// font-awesome
 @import "font-awesome/variables";
 @import "font-awesome/mixins";
 @import "font-awesome/path";
