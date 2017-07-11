@@ -52,3 +52,11 @@ jekyll-mentions:
   base_url: 'https://github.com'
 exclude:
      [node_modules, _drafts, _data]
+creativeautomaton:
+  users:
+  -
+    zach:
+      name: "Zachary"
+      about: "This is zach's little bio."
+    images: {}
+  
