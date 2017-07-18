@@ -59,10 +59,14 @@ $( document ).ready(function() {
          $('.logo').removeClass('hide');
          $('.title').removeClass('hide');
          $('#hero .container').addClass('done');
-         $('.title p').each(function() {
-                var time = 4;
-                $(this).delay(500 * time).show(1000);
-         });
+
+         var heroTitles = $('.title span').length;
+         var titleNumber = Math.floor(Math.random() * heroTitles);
+
+         $('.title span').hide().eq(titleNumber).show();
+
+          console.log(titleNumber, heroTitles);
+
          $('.call-to-action').delay(1500).show(500);
          $('.hire-us').delay(500).show(1000);
          $('.join-us').delay(500).show(1000);
@@ -89,9 +93,8 @@ $( document ).ready(function() {
 
     $('body').on('click', '.hamburger-container', function(){
         $('.hamburger').toggleClass('is-active hide');
-        $('.nav-link').toggleClass('hide'); 
-        $('.nav, .nav-home').toggleClass('slideInRight hide');
-        // $('.hamburger-inner').toggleClass('active');
+        $('.nav-link').toggleClass('hide');
+        $('.nav, .nav-home').toggleClass('slideInRight hide'); 
     });
 
     $(document).on('scroll', function(){

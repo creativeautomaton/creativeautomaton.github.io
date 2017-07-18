@@ -19,19 +19,9 @@
      }
    ],
   "taglines":  [
-       {
-        "order": 1,
-        "desc": "A Digital Automation Cooperative."
-       },
-       {
-        "order": 2,
-        "desc": "A Consumer-Grade Web Agency"
-       },
-       {
-        "order": 3,
-        "desc": "Re-Distributed Web Applications"
-       }
-
+      {
+       "desc": " A Digital Automation Cooperative."
+      }
     ],
   "services":  [
     {
