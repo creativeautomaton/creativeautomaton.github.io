@@ -87,8 +87,9 @@ $( document ).ready(function() {
          heroAnimation();
      });
 
-    $('body').on('click', '.hamburger', function(){
-        $(this).toggleClass('is-active');
+    $('body').on('click', '.hamburger-container', function(){
+        $('.hamburger').toggleClass('is-active hide');
+        $('.nav-link').toggleClass('hide'); 
         $('.nav, .nav-home').toggleClass('slideInRight hide');
         // $('.hamburger-inner').toggleClass('active');
     });

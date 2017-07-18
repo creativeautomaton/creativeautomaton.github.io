@@ -36,10 +36,12 @@ layout: compress
                 <div class="{{ page.title | downcase }}">
             {% endif %}
         {% endif %}
-
             {{ content }}
         </div>
+      {% include nav.html %}
     </div>
+
+
 
     {% include icons.html %}
 
