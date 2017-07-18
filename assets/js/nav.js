@@ -3,11 +3,10 @@ $( document ).ready(function() {
     console.log( "Jquery ready!" );
 
      $.ajax({
-         url: "/data.json",
+         url: "/assets/creativeautomaton.json",
          dataType: "json",
          success: function (data){
               siteData(data);
-              // localstorage.setitem(data);
          },
          error: function (error){
                console.log('failed...');
@@ -20,14 +19,7 @@ $( document ).ready(function() {
              console.log(data);
          }, 200);
     }
-
-     var heroSeen = localStorage.getItem("heroanimation");
-     console.log(heroSeen);
-    if (heroSeen == null) {
-      console.log(heroSeen);
-      localStorage.setItem("heroanimation", "false");
-    }
-    if (heroSeen = false ) {
+    function heroAnimation(){
           $('.call-to-action').hide().removeClass('hide');
 
           setTimeout(function(){
@@ -50,26 +42,46 @@ $( document ).ready(function() {
              });
           }, 1000);
 
-          setTimeout(function(){
-             heroAnimation();
-              localStorage.setItem("heroanimation", "true");
-          }, 6000);
-
-          function heroAnimation(){
-             $('.title').removeClass('hide');
-             $('#hero .container').addClass('done');
-
-            $('.title p').each(function() {
-                   var time = 4;
-                   $(this).delay(500 * time).show(1000);
-            });
-          }
-           setTimeout(function(){
-                $('.call-to-action').delay(1500).show(500);
-                $('.hire-us').delay(500).show(1000);
-                $('.join-us').delay(500).show(1000);
-           }, 10000);
+          $('.title').removeClass('hide');
+          $('#hero .container').addClass('done');
+          $('.title p').each(function() {
+                 var time = 4;
+                 $(this).delay(500 * time).show(1000);
+          });
+         setTimeout(function(){
+              $('.call-to-action').delay(1500).show(500);
+              $('.hire-us').delay(500).show(1000);
+              $('.join-us').delay(500).show(1000);
+         }, 10000);
     }
+    function heroStatic(){
+         $('.call-to-action').hide().removeClass('hide');
+         $('.logo').removeClass('hide');
+         $('.title').removeClass('hide');
+         $('#hero .container').addClass('done');
+         $('.title p').each(function() {
+                var time = 4;
+                $(this).delay(500 * time).show(1000);
+         });
+         $('.call-to-action').delay(1500).show(500);
+         $('.hire-us').delay(500).show(1000);
+         $('.join-us').delay(500).show(1000);
+
+    }
+
+    var heroVal = localStorage.getItem("heroanimation");
+    if (heroVal == null || heroVal === false){
+        localStorage.setItem("heroanimation", "false");
+        heroAnimation();
+        console.log('called  heroAnimation');
+    }
+    if(heroVal !== "false") {
+        localStorage.setItem("heroanimation", "true");
+        heroStatic();
+        console.log('called  heroStatic');
+    }
+
+
 
      $('body').on('click', '.testHero', function(){
          heroAnimation();
@@ -79,31 +91,28 @@ $( document ).ready(function() {
         $(this).toggleClass('is-active');
         $('.nav, .nav-home').toggleClass('slideInRight hide');
         // $('.hamburger-inner').toggleClass('active');
-
     });
+
     $(document).on('scroll', function(){
         var stickyHeader = $('html, body').scrollTop();
         if (stickyHeader >= 100) {
             console.log('reached 100px ');
             $('.hamburger-container').addClass('sticky');
         } else { $('.hamburger-container').removeClass('sticky'); }
-    });
 
-    $('body').on('click', '.test-data', function(){
-        console.log('clicked testing...');
-        $.ajax({
-            url: "/data.json",
-            dataType: "json",
-            success: function (data){
-                var data = data;
-            },
-            error: function (error){
-                  console.log('failed...');
-                 console.log(error);
-                  var data = null;
-             }
-        });
-    });
+        var services = $('.service-panels').offset().top;
+        console.log(services);
+        if (stickyHeader = services) {
+           console.log('reached service-panels');
+           $('.service-panels .animated').removeClass('hide');
+        }
 
+         var portfolio = $('.portfolio').offset().top;
+         console.log(portfolio);
+         if (stickyHeader = portfolio) {
+            console.log('reached portfolio');
+            $('.portfolio .animated').removeClass('hide');
+         }
+    });
 
 });

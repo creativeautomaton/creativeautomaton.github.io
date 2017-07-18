@@ -7,7 +7,7 @@
                 <div class="col-lg-12">
                     <h2 class="page-header"> Projects
                         <small>A small list of our recent projects</small>
-                    </h2> 
+                    </h2>
                 </div>
             </div>
             <!-- /.row -->
@@ -15,7 +15,7 @@
             <!-- Projects Row -->
             <div class="row">
                 {% for project in site.data.projects %}
-                <div class="col-xs-12 col-sm-4 img-portfolio">
+                <div class="col-xs-12 col-sm-4 img-portfolio animated bounceInUp hide">
                     <a href="{{ project.url}}">
                         <img class="img-responsive img-hover" src="{{project.images.logo.url}}" alt="{{project.name}}">
                     </a>
