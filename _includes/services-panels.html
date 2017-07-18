@@ -9,16 +9,20 @@
                     {% for service in site.data.creativeautomaton.services %}
                      <div class="col-md-4 col-sm-6 hide animated bounceIn">
                          <div class="panel panel-default text-center">
-                             <div class="panel-heading">
-                                 <span class="fa-stack fa-5x">
-                                       <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                             <div class="panel-heading"  style="background: url('{{service.image}}');">
+                                 <span class="fa-stack fa-5x animated ">
+                                       <i class="fa fa-circle fa-stack-2x text-info"></i>
                                        <i class="fa {{service.icon}} fa-stack-1x fa-inverse"></i>
                                  </span>
                              </div>
                              <div class="panel-body">
                                  <h4>{{service.name}}</h4>
                                  <p>{{service.desc}}</p>
-                                 <a href="#" class="btn btn-primary">Learn More</a>
+                                 <a href="/{{service.url}}" class="btn btn-secondary">
+                                  Learn More </a>
+                                 <p>or</p>
+                                 <a href="#quote" class="btn btn-primary get-quote animated">
+                                  Get Quote</a>
                              </div>
                          </div>
                      </div>

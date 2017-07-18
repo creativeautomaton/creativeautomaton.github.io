@@ -85,7 +85,18 @@ $( document ).ready(function() {
         console.log('called  heroStatic');
     }
 
-
+      $('.panel').on({
+          mouseenter: function () {
+              //stuff to do on mouse enter
+               $('span.fa-stack', this).addClass('bounce');
+               $('.get-quote', this).addClass('pulse').removeClass('btn-primary').addClass('btn-danger');
+          },
+          mouseleave: function () {
+              //stuff to do on mouse leave
+              $('span.fa-stack', this).removeClass('bounce');
+              $('.get-quote', this).addClass('btn-primary').removeClass('btn-danger pulse');
+          }
+      });
 
      $('body').on('click', '.testHero', function(){
          heroAnimation();
@@ -94,7 +105,7 @@ $( document ).ready(function() {
     $('body').on('click', '.hamburger-container', function(){
         $('.hamburger').toggleClass('is-active hide');
         $('.nav-link').toggleClass('hide');
-        $('.nav, .nav-home').toggleClass('slideInRight hide'); 
+        $('.nav, .nav-home').toggleClass('slideInRight hide');
     });
 
     $(document).on('scroll', function(){
