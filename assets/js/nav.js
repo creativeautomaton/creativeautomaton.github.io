@@ -99,11 +99,7 @@ $( document ).ready(function() {
       });
  
 
-    $('body').on('click', '.hamburger-container', function(){
-        $('.hamburger').toggleClass('is-active hide');
-        $('.nav-link').toggleClass('hide');
-        $('.nav, .nav-home').toggleClass('slideInRight hide');
-    });
+
 
     $(document).on('scroll', function(){
         var stickyHeader = $('html, body').scrollTop();

@@ -14,8 +14,14 @@
   ],
    "clients":  [
      {
-     "name": "Decantry",
-     "about": "Web Development Agency"
+       "name": "Decantry",
+       "about": "Web Development",
+       "logo": "/assets/images/decantery.png"
+     },
+     {
+       "name": "Brighton Agency",
+       "about": "Marketing Agency",
+       "logo": "/assets/images/brighton.png"
      }
    ],
   "taglines":  [
@@ -85,8 +91,8 @@
       "name": "Starfish Project",
       "id": "1",
       "date": "01-01-2016",
-      "url": "http://test.com",
-      "description": "--Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae",
+      "url": "https://starfishproject.com/",
+      "description": "Website and recipe search engine. ",
       "video": "",
       "images": {
           "logo":{
@@ -95,16 +101,16 @@
           },
           "background":{
             "name": "Starfish project logo",
-            "url": "/assets/projects/starfish-project/background.png"
+            "url": "/assets/images/starfish-project.png"
           }
       }
     },
     {
-      "name": "PictSweet",
+      "name": "PictSweet Farms",
       "id": "2",
       "date": "10-30-2016",
-      "url": "http://test.com",
-      "description": "--Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae",
+      "url": "https://www.pictsweetfarms.com/",
+      "description": "Website and recipe search engine. ",
       "video": "",
       "images": {
           "logo":{
@@ -113,41 +119,61 @@
           },
           "background":{
             "name": "pict sweet background",
-            "url": "/assets/projects/pictsweet/background.png"
+            "url": "/assets/images/pictsweetfarms.png"
           }
       }
     }
   ],
   "forms": [
     {
-      "name": "Genaric Form",
+      "name": "Project Quote",
       "id": "1",
       "email": "creativeautomaton@gmail.com",
-      "description": "A basic email form template.",
+      "description": "Where do we begin?",
       "inputs": [
                   {
                     "id": "1",
                     "name": "name",
+                    "tag": "input",
                     "type": "text",
                     "value": "",
                     "attribute": "required",
-                    "placeholder": "Enter a Name..."
+                    "placeholder": "Enter a Name...",
+                    "label": "Name"
                   },
                   {
                     "id": "2",
                     "name": "_replyto",
+                    "tag": "input",
                     "type": "email",
                     "value": "",
                     "attribute": "required",
-                    "placeholder": "Email Address"
+                    "placeholder": "Email Address",
+                    "label": "Email Address"
                   },
                   {
                     "id": "3",
                     "name": "content",
-                    "type": "textarea",
+                    "tag": "textarea",
                     "value": "",
                     "attribute": "",
-                    "placeholder": "What can we help you with?"
+                    "placeholder": "What can we help you with?",
+                    "size": " cols='4' rows='5' "
+                  },
+                  {
+                    "id": "4",
+                    "name": "state",
+                    "tag": "select",
+                    "options": [
+                      {
+                          "value": "Arizona",
+                          "selected": "selected"
+                      },
+                       {
+                           "value": "Alabama"
+                       }
+                    ],
+                    "label": "State"
                   }
               ]
       }
