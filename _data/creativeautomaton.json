@@ -83,6 +83,7 @@
   "projects": [
     {
       "name": "Starfish Project",
+      "id": "1",
       "date": "01-01-2016",
       "url": "http://test.com",
       "description": "--Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae",
@@ -100,6 +101,7 @@
     },
     {
       "name": "PictSweet",
+      "id": "2",
       "date": "10-30-2016",
       "url": "http://test.com",
       "description": "--Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae",
@@ -115,5 +117,39 @@
           }
       }
     }
-  ]
+  ],
+  "forms": [
+    {
+      "name": "Genaric Form",
+      "id": "1",
+      "email": "creativeautomaton@gmail.com",
+      "description": "A basic email form template.",
+      "inputs": [
+                  {
+                    "id": "1",
+                    "name": "name",
+                    "type": "text",
+                    "value": "",
+                    "attribute": "required",
+                    "placeholder": "Enter a Name..."
+                  },
+                  {
+                    "id": "2",
+                    "name": "_replyto",
+                    "type": "email",
+                    "value": "",
+                    "attribute": "required",
+                    "placeholder": "Email Address"
+                  },
+                  {
+                    "id": "3",
+                    "name": "content",
+                    "type": "textarea",
+                    "value": "",
+                    "attribute": "",
+                    "placeholder": "What can we help you with?"
+                  }
+              ]
+      }
+   ]
 }

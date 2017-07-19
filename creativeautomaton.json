@@ -19,52 +19,62 @@
      }
    ],
   "taglines":  [
-      {
-       "desc": " A Digital Automation Cooperative."
-      }
+       {
+        "order": 1,
+        "desc": "A Digital Automation Cooperative."
+       },
+       {
+        "order": 2,
+        "desc": "A Consumer-Grade Web Agency"
+       },
+       {
+        "order": 3,
+        "desc": "Re-Distributed Web Applications"
+       }
+
     ],
   "services":  [
     {
       "name": "Web Automation",
       "desc": "Web application Automation for products and services.",
-      "url": "/web-autmation",
-      "image": "assets/images/services/web-automation.png",
-      "icon": "fa-tree"
+      "url": "web-automation",
+      "image": "/assets/images/wooden-robot.jpg",
+      "icon": "fa-magic"
     },
     {
       "name": "Web Development",
       "desc": "Typical web products html, js, css",
-      "url": "/web-development",
-      "image": "assets/images/services/web-development.png",
-      "icon": "fa-tree"
+      "url": "web-development",
+      "image": "/assets/images/code.jpg",
+      "icon": "fa-code"
     },
     {
       "name": "Marketing Automation Solutions",
       "desc": "Typical web products html, js, css",
-      "url": "/web-development",
-      "image": "assets/images/services/web-development.png",
-      "icon": "fa-tree"
+      "url": "web-marketing",
+      "image": "/assets/images/web-marketing.jpg",
+      "icon": "fa-crosshairs"
     },
     {
       "name": "Web Design Tools",
       "desc": "Web based css tools",
-      "url": "/web-development",
-      "image": "assets/images/services/web-development.png",
-      "icon": "fa-tree"
+      "url": "web-design",
+      "image": "/assets/images/design-tools.jpg",
+      "icon": "fa-rocket"
     },
     {
       "name": "Content Management Solutions",
       "desc": "Wordpress, Joomla Theme development",
-      "url": "/web-development",
-      "image": "assets/images/services/web-development.png",
-      "icon": "fa-tree"
+      "url": "cms",
+      "image": "assets/images/content-settings.jpg",
+      "icon": "fa-edit"
     },
     {
       "name": "Application Development",
       "desc": "Moile and web based applications",
-      "url": "/web-development",
-      "image": "assets/images/services/web-development.png",
-      "icon": "fa-tree"
+      "url": "web-apps",
+      "image": "assets/images/apps-screen.jpg",
+      "icon": "fa-buysellads"
     }
   ],
   "images": {
@@ -73,6 +83,7 @@
   "projects": [
     {
       "name": "Starfish Project",
+      "id": "1",
       "date": "01-01-2016",
       "url": "http://test.com",
       "description": "--Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae",
@@ -90,6 +101,7 @@
     },
     {
       "name": "PictSweet",
+      "id": "2",
       "date": "10-30-2016",
       "url": "http://test.com",
       "description": "--Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae",
@@ -104,6 +116,40 @@
             "url": "/assets/projects/pictsweet/background.png"
           }
       }
+    }
+  ],
+  "forms": [
+    {
+      "name": "Genaric Form",
+      "id": "1",
+      "email": "creativeautomaton@gmail.com",
+      "description": "A basic email form template.",
+      "inputs": [
+          {
+            "id": "1",
+            "name": "name",
+            "type": "text",
+            "value": "",
+            "attribute": "required",
+            "placeholder": "Enter a Name..."
+          },
+          {
+            "id": "2",
+            "name": "_replyto",
+            "type": "email",
+            "value": "",
+            "attribute": "required",
+            "placeholder": "Email Address"
+          },
+          {
+            "id": "3",
+            "name": "content",
+            "type": "textarea",
+            "value": "",
+            "attribute": "",
+            "placeholder": "What can we help you with?"
+          }
+      ]
     }
   ]
 }

@@ -38,11 +38,10 @@ layout: compress
         {% endif %}
             {{ content }}
         </div>
-      {% include nav.html %}
     </div>
 
 
-
+    {% include modals.html %}
     {% include icons.html %}
 
     {% include analytics-google.html %}
@@ -54,5 +53,10 @@ layout: compress
 <script src="{{ site.url }}/assets/js/custom.js" type="text/javascript"></script>
 <script src="{{ site.url }}/assets/js/nav.js" type="text/javascript"></script>
 <script src="{{ site.url }}/assets/js/git.js" type="text/javascript"></script>
+
+<script src="{{ site.url }}/assets/js/agency.min.js" type="text/javascript"></script>
+<script src="{{ site.url }}/assets/js/contact-form.js" type="text/javascript"></script>
+
+<script src="{{ site.url }}/assets/js/bootstrap-validation.js" type="text/javascript"></script>
 <!-- Site Scripts  -->
 </html>

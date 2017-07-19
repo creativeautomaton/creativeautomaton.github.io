@@ -97,10 +97,7 @@ $( document ).ready(function() {
               $('.get-quote', this).addClass('btn-primary').removeClass('btn-danger pulse');
           }
       });
-
-     $('body').on('click', '.testHero', function(){
-         heroAnimation();
-     });
+ 
 
     $('body').on('click', '.hamburger-container', function(){
         $('.hamburger').toggleClass('is-active hide');
