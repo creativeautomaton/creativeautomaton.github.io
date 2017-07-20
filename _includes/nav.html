@@ -1,25 +1,10 @@
-<div id="menu">
-
-    <div class="hamburger-container">
-
-         <a href="#nav-modal-1"  data-toggle="modal" > Projects + Contact </a>
-
-
-        <!-- <span class="nav-link"> Projects + Contact </span> -->
-        <!-- <button class="hamburger hamburger--collapse hide" type="button">
-          <span class="hamburger-box">
-            <span class="hamburger-inner"></span>
-          </span>
-        </button> -->
-    </div>
-    <nav class="{% if page.id == "homepage" %}nav-home{% else %}nav-home{% endif %} animated hide">
+<nav class="">
         <ul class="list">
             {% if page.title != "Home" %}
                 <li class="item">
                     <a class="link" href="{{ site.url }}/">Home</a>
                 </li>
             {% endif %}
-
 
             {% if site.projects == true %}
                 {% if page.title != "Projects" %}
@@ -64,6 +49,4 @@
 
         {% include form-subscribe.html %}
 
-    <button class="test-data"> test </button>
-    </nav>
-</div>
+</nav>
