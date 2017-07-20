@@ -13,11 +13,10 @@ disqus:
   categories:
     - blog
     - project
-facebook: myfacebook
-twitter: mytwitter
-github: mygithub
-medium: medium
-email: myemail@gmail.com
+facebook: https://www.facebook.com/CreativeAutomaton/
+twitter: https://twitter.com/AutomatonCoOp
+github: https://github.com/creativeautomaton 
+email: creativeautomaton@gmail.com
 authors:
   johndoe:
     name: John Doe
