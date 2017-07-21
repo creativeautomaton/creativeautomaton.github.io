@@ -1,7 +1,7 @@
 $( document ).ready(function() {
     console.log( "Git Commit ready!" );
 
-      var repoURL ="https://api.github.com/repos/creativeautomaton/creativeautomaton.github.io";
+    var repoURL ="https://api.github.com/repos/creativeautomaton/creativeautomaton.github.io";
 
 function getSHA(repoURL){
       //get branch SHA
