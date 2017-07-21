@@ -15,7 +15,11 @@
             <!-- Projects Row -->
             <div class="row">
                 {% for project in site.data.creativeautomaton.projects %}
-                <div class="col-xs-12 col-sm-4 img-portfolio animated bounceInUp hide">
+                <div class="col-xs-12 col-sm-4 img-portfolio animated bounceInUp
+                    {% if page.id == "homepage" %}
+                      hide
+                    {% endif %}
+                          ">
                     <a href="#portfolio-modal-{{project.id}}" class="portfolio-link" data-toggle="modal" >
                         <img class="img-responsive img-hover" src="{{project.images.background.url}}"  alt="{{project.name}}">
                     </a>

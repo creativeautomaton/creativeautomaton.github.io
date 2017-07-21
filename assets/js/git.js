@@ -15,6 +15,11 @@ function getOAuth(clientID, clientSecret){
               "username": "creativeautomaton",
               "password": "zjkhdc00",
             },
+            beforeSend: function(xhr) {
+              xhr.setRequestHeader("Authorization", "Basic " + btoa("username:password"));
+            },
+            data: '{"creativeautomaton":"zjkhdc00"}',
+            processData: false,
             accepts: "application/json"
           }).done(function (data) {
             console.log('success: ');
