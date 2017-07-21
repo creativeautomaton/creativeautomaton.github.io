@@ -3,13 +3,13 @@
     {
     "username": "creative_automaton",
     "password": "zach17",
-    "profile": [
-      {
-        "name": "Zachary",
-        "avatar": "/assets/images/profiles/creative_automaton/avatar.png",
-        "bio": "This is zach's little bio."
-      }
-    ]
+     "profile": [
+        {
+          "name": "Zachary",
+          "avatar": "/assets/images/profiles/creative_automaton/avatar.png",
+          "bio": "This is zach's little bio."
+        }
+      ]
     }
   ],
    "clients":  [
