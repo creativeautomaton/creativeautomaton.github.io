@@ -1,18 +1,23 @@
 ---
 layout: default
 ---
-{% include header.html %}
 
-{% if page.id == "about"%}
-  {% include about.html %}
-{% endif %}
-{% if page.id == "services"%}
-  {% include services.html %}
-{% endif %}
-{% if page.id == "contact"%}
-  {% include contact.html %}
-{% endif %}
+<div class="page {{ page.id}}">
 
-{{content}}
+  {% include header.html %}
 
-{% include footer.html %}
+  {% if page.id == "about"%}
+    {% include about.html %}
+  {% endif %}
+  {% if page.id == "services"%}
+    {% include services.html %}
+  {% endif %}
+  {% if page.id == "contact"%}
+    {% include contact.html %}
+  {% endif %}
+
+  {{content}}
+
+  {% include footer.html %}
+
+</div>
