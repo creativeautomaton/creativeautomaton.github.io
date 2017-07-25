@@ -1,0 +1,180 @@
+{
+  "users":  [
+    {
+    "username": "creative_automaton",
+    "password": "zach17",
+     "profile": [
+        {
+          "name": "Zachary",
+          "avatar": "/assets/images/profiles/creative_automaton/avatar.png",
+          "bio": "This is zach's little bio."
+        }
+      ]
+    }
+  ],
+   "clients":  [
+     {
+       "name": "Decantry",
+       "about": "Web Development",
+       "logo": "/assets/images/decantery.png"
+     },
+     {
+       "name": "Brighton Agency",
+       "about": "Marketing Agency",
+       "logo": "/assets/images/brighton.png"
+     }
+   ],
+  "taglines":  [
+       {
+        "order": 1,
+        "desc": "A Digital Automation Cooperative."
+       },
+       {
+        "order": 2,
+        "desc": "A Web Development Company"
+       },
+       {
+        "order": 3,
+        "desc": "Re-Distributed Web Applications"
+       }
+    ],
+  "services":  [
+    {
+      "name": "Web Automation",
+      "desc": "Web application Automation for products and services.",
+      "url": "web-automation",
+      "image": "/assets/images/wooden-robot.jpg",
+      "icon": "fa-magic"
+    },
+    {
+      "name": "Web Development",
+      "desc": "Typical web products html, js, css",
+      "url": "web-development",
+      "image": "/assets/images/code.jpg",
+      "icon": "fa-code"
+    },
+    {
+      "name": "Marketing Automation Solutions",
+      "desc": "Typical web products html, js, css",
+      "url": "web-marketing",
+      "image": "/assets/images/web-marketing.jpg",
+      "icon": "fa-crosshairs"
+    },
+    {
+      "name": "Web Design Tools",
+      "desc": "Web based css tools",
+      "url": "web-design",
+      "image": "/assets/images/design-tools.jpg",
+      "icon": "fa-rocket"
+    },
+    {
+      "name": "Content Management Solutions",
+      "desc": "Wordpress, Joomla Theme development",
+      "url": "cms",
+      "image": "assets/images/content-settings.jpg",
+      "icon": "fa-edit"
+    },
+    {
+      "name": "Application Development",
+      "desc": "Moile and web based applications",
+      "url": "web-apps",
+      "image": "assets/images/apps-screen.jpg",
+      "icon": "fa-buysellads"
+    }
+  ],
+  "images": {
+
+   },
+  "projects": [
+    {
+      "name": "Starfish Project",
+      "id": "1",
+      "date": "01-01-2016",
+      "url": "https://starfishproject.com/",
+      "description": "Website and recipe search engine. ",
+      "video": "",
+      "images": {
+          "logo":{
+            "name": "Starfish project logo",
+            "url": "/assets/projects/starfish-project/logo.png"
+          },
+          "background":{
+            "name": "Starfish project logo",
+            "url": "/assets/images/starfish-project.png"
+          }
+      }
+    },
+    {
+      "name": "PictSweet Farms",
+      "id": "2",
+      "date": "10-30-2016",
+      "url": "https://www.pictsweetfarms.com/",
+      "description": "Website and recipe search engine. ",
+      "video": "",
+      "images": {
+          "logo":{
+            "name": "PictSweet logo",
+            "url": "/assets/projects/pictsweet/logo.png"
+          },
+          "background":{
+            "name": "pict sweet background",
+            "url": "/assets/images/pictsweetfarms.png"
+          }
+      }
+    }
+  ],
+  "forms": [
+    {
+      "name": "Project Quote",
+      "id": "1",
+      "email": "creativeautomaton@gmail.com",
+      "description": "Where do we begin?",
+      "inputs": [
+                  {
+                    "id": "1",
+                    "name": "name",
+                    "tag": "input",
+                    "type": "text",
+                    "value": "",
+                    "attribute": "required",
+                    "placeholder": "Enter a Name...",
+                    "label": "Name"
+                  },
+                  {
+                    "id": "2",
+                    "name": "_replyto",
+                    "tag": "input",
+                    "type": "email",
+                    "value": "",
+                    "attribute": "required",
+                    "placeholder": "Email Address",
+                    "label": "Email Address"
+                  },
+                  {
+                    "id": "3",
+                    "name": "content",
+                    "tag": "textarea",
+                    "value": "",
+                    "attribute": "",
+                    "placeholder": "What can we help you with?",
+                    "size": " cols='4' rows='5' "
+                  },
+                  {
+                    "id": "4",
+                    "name": "state",
+                    "tag": "select",
+                    "options": [
+                      {
+                          "value": "Arizona",
+                          "selected": "selected"
+                      },
+                       {
+                           "value": "Alabama"
+                       }
+                    ],
+                    "label": "State"
+                  }
+              ]
+      }
+   ]
+}

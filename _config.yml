@@ -1,29 +1,25 @@
 name: Creative Automaton
 bio: Creative Web Automation Services
-description: Creative Automation built to share the profits automation with coders.
+description: 'Creative Automation built to share the profits automation with coders'.
 external-image: false
-picture: assets/images/profile.jpg
+picture: 'assets/images/profile.jpg'
 resume: true
 resume-external: true
 resume-url: 'https://google.com/?q=my+resume'
-url: creativeautomaton.com
+url: 'creativeautomaton.com'
 permalink: '/:title/'
 disqus:
   shortname: mydisqus
   categories:
     - blog
     - project
-facebook: https://www.facebook.com/CreativeAutomaton
-twitter: https://twitter.com/AutomatonCoOp
-<<<<<<< HEAD
-github: https://github.com/creativeautomaton
-youtube: https://www.youtube.com/user/TheCreativeautomaton
-linkedin: https://www.linkedin.com/in/zachary-kraft-a95115111
-reddit: https://www.reddit.com/user/cre8tiveautomaton
-=======
-github: https://github.com/creativeautomaton 
->>>>>>> parent of 8cb29fa... latest
-email: creativeautomaton@gmail.com
+facebook: 'https://www.facebook.com/CreativeAutomaton'
+twitter: 'https://twitter.com/AutomatonCoOp'
+github: 'https://github.com/creativeautomaton'
+youtube: 'https://www.youtube.com/user/TheCreativeautomaton'
+linkedin: 'https://www.linkedin.com/in/zachary-kraft-a95115111'
+reddit: 'https://www.reddit.com/user/cre8tiveautomaton'
+email: 'creativeautomaton@gmail.com'
 authors:
   johndoe:
     name: John Doe
@@ -56,4 +52,3 @@ gems:
   - jemoji
 jekyll-mentions:
   base_url: 'https://github.com'
-exclude: ["node_modules"]
