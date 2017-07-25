@@ -78,7 +78,12 @@
                          <div class="col-lg-8 col-lg-offset-2">
                              <div class="modal-body">
                                  <h2>{{form.name}}</h2>
-                                 <p>{{ form.description}}</p> 
+                                 <p>{{ form.description}}</p>
+                                 <form method="POST" action="http://formspree.io/creativeautomaton@gmail.com">
+                                  <input name="email" placeholder="Your email" type="email">
+                                  <textarea name="message" placeholder="Your message"></textarea>
+                                  <button type="submit">Send</button>
+                                </form>
 
                                  <form action="http://formspree.io/{{form.email}}"
                                  method="POST">
