@@ -15,10 +15,14 @@ disqus:
     - project
 facebook: https://www.facebook.com/CreativeAutomaton
 twitter: https://twitter.com/AutomatonCoOp
+<<<<<<< HEAD
 github: https://github.com/creativeautomaton
 youtube: https://www.youtube.com/user/TheCreativeautomaton
 linkedin: https://www.linkedin.com/in/zachary-kraft-a95115111
 reddit: https://www.reddit.com/user/cre8tiveautomaton
+=======
+github: https://github.com/creativeautomaton 
+>>>>>>> parent of 8cb29fa... latest
 email: creativeautomaton@gmail.com
 authors:
   johndoe:
