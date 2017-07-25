@@ -52,3 +52,4 @@ gems:
   - jemoji
 jekyll-mentions:
   base_url: 'https://github.com'
+exclude: ["node_modules"]
