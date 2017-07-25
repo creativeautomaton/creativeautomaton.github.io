@@ -158,6 +158,21 @@
                     "attribute": "",
                     "placeholder": "What can we help you with?",
                     "size": " cols='4' rows='5' "
+                  },
+                  {
+                    "id": "4",
+                    "name": "state",
+                    "tag": "select",
+                    "options": [
+                      {
+                          "value": "Arizona",
+                          "selected": "selected"
+                      },
+                       {
+                           "value": "Alabama"
+                       }
+                    ],
+                    "label": "State"
                   }
               ]
       }
