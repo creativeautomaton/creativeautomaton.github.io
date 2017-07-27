@@ -33,8 +33,7 @@ authors:
     external-image: false
     picture: assets/images/james.jpg
     twitter: Cre8tiveCoOp
-width: large
-projects: true
+width: large 
 about: true
 blog: true
 contact: true

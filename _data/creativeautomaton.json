@@ -24,6 +24,17 @@
        "logo": "/assets/images/brighton.png"
      }
    ],
+  "workers":  [
+    {
+      "name": "Zachary James Kraft",
+      "title": "Founder / Developer / Designer",
+      "description": "A creative and inventive Web Developer who likes adventure and exploring possibilites.",
+      "photo": "/assets/images/decantery.png",
+      "twittter": "https://twitter.com/AutomatonCoOp",
+      "facebook": "https://www.facebook.com/CreativeAutomaton",
+      "linkedin": "https://www.linkedin.com/in/zachary-kraft-a95115111" 
+    }
+  ],
   "taglines":  [
        {
         "order": 1,
