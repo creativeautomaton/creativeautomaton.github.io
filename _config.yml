@@ -9,7 +9,7 @@ resume-url: 'https://google.com/?q=my+resume'
 url: 'creativeautomaton.com'
 permalink: '/:title/'
 disqus:
-  shortname: mydisqus
+  shortname: Comments
   categories:
     - blog
     - project
@@ -21,19 +21,13 @@ linkedin: 'https://www.linkedin.com/in/zachary-kraft-a95115111'
 reddit: 'https://www.reddit.com/user/cre8tiveautomaton'
 email: 'creativeautomaton@gmail.com'
 authors:
-  johndoe:
-    name: John Doe
-    bio: A Man who travels the world eating noodles
-    external-image: false
-    picture: assets/images/profile.jpg
-    twitter: johndoe
-  jamesfoster:
+  creativeautomaton:
     name: Creative Automaton
-    bio: Creative Web Automation Services
+    bio: Creative Web Automation Cooperative
     external-image: false
-    picture: assets/images/james.jpg
+    picture: assets/images/logo.jpg
     twitter: Cre8tiveCoOp
-width: large 
+width: large
 about: true
 blog: true
 contact: true

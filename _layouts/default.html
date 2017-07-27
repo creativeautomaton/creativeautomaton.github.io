@@ -28,7 +28,7 @@ layout: compress
     <a href="#nav-modal-1"  data-toggle="modal" class="menu-btn"> Projects + Contact </a>
     <div class="wrapper-{% if site.width == "normal" %}normal{% elsif site.width == "large" %}large{% endif %}">
         {% if page.tag %}
-            <div class="post">
+            <div class="post container"> 
         {% else %}
             {% if showHeader != true %}
                 <div class="page {{ page.title | downcase }}">
