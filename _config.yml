@@ -31,6 +31,8 @@ width: large
 about: true
 blog: true
 contact: true
+projects: true
+services: true
 read-time: true
 show-tags: true
 related: true
