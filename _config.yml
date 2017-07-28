@@ -45,3 +45,5 @@ gems:
   - jemoji
 jekyll-mentions:
 base_url: 'https://github.com'
+ # exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules', 'gulpfile.js']
