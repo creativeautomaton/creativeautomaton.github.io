@@ -1,6 +1,6 @@
 name: Creative Automaton
 bio: Creative Web Automation Services
-description: 'Creative Automation built to share the profits automation with coders.'
+description: Creative Automation built to share the profits automation with coders
 external-image: false
 picture: 'assets/images/profile.jpg'
 resume: true
@@ -25,7 +25,7 @@ authors:
     name: Creative Automaton
     bio: Creative Web Automation Cooperative
     external-image: false
-    picture: assets/images/logo.jpg
+    picture: /assets/images/logo.jpg
     twitter: Cre8tiveCoOp
 width: large
 about: true
@@ -44,4 +44,4 @@ gems:
   - jekyll-feed
   - jemoji
 jekyll-mentions:
-  base_url: 'https://github.com'
+base_url: 'https://github.com'
