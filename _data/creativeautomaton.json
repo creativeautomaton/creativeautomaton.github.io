@@ -32,7 +32,7 @@
       "photo": "/assets/images/decantery.png",
       "twittter": "https://twitter.com/AutomatonCoOp",
       "facebook": "https://www.facebook.com/CreativeAutomaton",
-      "linkedin": "https://www.linkedin.com/in/zachary-kraft-a95115111" 
+      "linkedin": "https://www.linkedin.com/in/zachary-kraft-a95115111"
     }
   ],
   "taglines":  [
@@ -55,7 +55,8 @@
       "desc": "Web application Automation for products and services.",
       "url": "web-automation",
       "image": "/assets/images/wooden-robot.jpg",
-      "icon": "fa-magic"
+      "icon": "fa-magic",
+      "active": "true"
     },
     {
       "name": "Web Development",
