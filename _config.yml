@@ -2,11 +2,11 @@ name: Creative Automaton
 bio: Creative Web Automation Services
 description: Creative Automation built to share the profits automation with coders
 external-image: false
-picture: 'assets/images/profile.jpg'
+picture: assets/images/profile.jpg
 resume: true
 resume-external: true
 resume-url: 'https://google.com/?q=my+resume'
-url: 'creativeautomaton.com'
+url: 'http://creativeautomaton.com'
 permalink: '/:title/'
 disqus:
   shortname: Comments
