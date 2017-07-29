@@ -117,20 +117,44 @@
       }
     },
     {
-      "name": "PictSweet Farms",
+      "name": "The Bindel",
       "id": "2",
+      "date": "04-30-2016",
+      "url": "https://thebindel.com/",
+      "description": "Short-term Rentals for College Students.",
+      "video": "",
+      "images": {
+          "background":{
+            "name": "the Bindel",
+            "url": "/assets/images/thebindel.png"
+          }
+      }
+    },
+    {
+      "name": "PictSweet Farms",
+      "id": "3",
       "date": "10-30-2016",
       "url": "https://www.pictsweetfarms.com/",
       "description": "Website and recipe search engine. ",
       "video": "",
       "images": {
-          "logo":{
-            "name": "PictSweet logo",
-            "url": "/assets/projects/pictsweet/logo.png"
-          },
           "background":{
             "name": "pict sweet background",
             "url": "/assets/images/pictsweetfarms.png"
+          }
+      }
+    },
+    {
+      "name": "Saint Louis Genological Society",
+      "id": "4",
+      "date": "12-01-2016",
+      "url": "https://stlgs.org/",
+      "description": "A site to help genealogists trying to research their St. Louis ancestors",
+      "video": "",
+      "images": {
+          "background":{
+            "name": "the Bindel",
+            "url": "/assets/images/stlgs.png"
           }
       }
     }
