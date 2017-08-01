@@ -9,7 +9,7 @@ resume-url: 'https://google.com/?q=my+resume'
 url: 'http://creativeautomaton.com'
 permalink: '/:title/'
 disqus:
-  shortname: creativeautomaton
+  shortname: creativeautomatondesign
   categories:
     - blog
     - project
