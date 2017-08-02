@@ -5,8 +5,9 @@
       <h1 class="logo hide fast">Creative Automaton</h1>
       <p class="description hide">{{ site.bio }}</p>
       <div class="title hide">
+
           {% for tagline in site.data.creativeautomaton.taglines %}
-              <span data-order="{{tagline.order}} "> {{tagline.desc}} </span>
+              <span data-order="{{tagline.order}} "> <h2> {{tagline.desc}} </h2> </span>
           {% endfor %}
      </div>
       <p>
