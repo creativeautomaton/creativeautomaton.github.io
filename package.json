@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "Cooperative site",
   "main": "gulpfile.js",
-  "directories": {
-    "test": "tests"
-  },
   "repository": {
   "type": "git",
   "url": "git://github.com/creativeautomaton/creativeautomaton.github.io.git"
@@ -23,10 +20,7 @@
     "gulp-uglify": "^2.1.2",
     "gulp-watch": "^4.3.11",
     "pump": "^1.0.2"
-  },
-  "scripts": {
-    "test": "run"
-  },
+  }, 
   "author": "Zachary Kraft",
   "license": "ISC"
 }

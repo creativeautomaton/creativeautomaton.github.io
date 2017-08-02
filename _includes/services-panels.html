@@ -3,9 +3,9 @@
              <!-- Service Panels -->
              <div class="row">
                  <div class="col-lg-12">
-                     <h2 class="page-header">Services
+                     <div class="page-header">Services
                        <small> Grity details of our offerings</small>
-                     </h2>
+                     </div>
                  </div>
                 <div class="service-panels">
                     {% for service in site.data.creativeautomaton.services %}
@@ -18,7 +18,7 @@
                                  </span>
                              </div>
                              <div class="panel-body">
-                                 <h4>{{service.name}}</h4>
+                                 <strong class="service-name">{{service.name}}</strong>
                                  <p>{{service.desc}}</p>
                                  <a href="services/{{service.url}}" class="btn btn-secondary">
                                   Learn More </a>

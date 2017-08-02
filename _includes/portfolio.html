@@ -5,9 +5,9 @@
             <!-- Page Heading/Breadcrumbs -->
             <div class="row">
                 <div class="col-lg-12">
-                    <h2 class="page-header"> Projects
+                    <div class="page-header"> Projects
                         <small>A list of our work</small>
-                    </h2>
+                    </div>
                 </div>
             </div>
             <!-- /.row -->
@@ -23,9 +23,9 @@
                     <a href="#portfolio-modal-{{project.id}}" class="portfolio-link" data-toggle="modal" >
                         <img class="img-responsive img-hover" src="{{project.images.background.url}}"  alt="{{project.name}}">
                     </a>
-                    <h3>
+                    <span class="project-name">
                         <a href="{{ project.url}}"> {{project.name}} </a>
-                    </h3>
+                    </span>
                     <p>{{ project.description}}</p>
                 </div>
                 {% endfor %}

@@ -6,7 +6,7 @@
      "profile": [
         {
           "name": "Zachary",
-          "avatar": "/assets/images/profiles/creative_automaton/avatar.png",
+          "avatar": "/assets/images/dist/profiles/creative_automaton/avatar.png",
           "bio": "This is zach's little bio."
         }
       ]
@@ -16,12 +16,12 @@
      {
        "name": "Decantry",
        "about": "Web Development",
-       "logo": "/assets/images/decantery.png"
+       "logo": "/assets/images/dist/decantery.png"
      },
      {
        "name": "Brighton Agency",
        "about": "Marketing Agency",
-       "logo": "/assets/images/brighton.png"
+       "logo": "/assets/images/dist/brighton.png"
      }
    ],
   "workers":  [
@@ -29,7 +29,7 @@
       "name": "Zachary James Kraft",
       "title": "Founder / Developer / Designer",
       "description": "A creative and inventive Web Developer who likes adventure and exploring possibilites.",
-      "photo": "/assets/images/zach.png",
+      "photo": "/assets/images/dist/zach.png",
       "twitter": "https://www.twitter.com/AutomatonCoOp",
       "facebook": "https://www.facebook.com/CreativeAutomaton",
       "linkedin": "https://www.linkedin.com/in/zachary-kraft-a95115111"
@@ -54,7 +54,7 @@
       "name": "Web Automation",
       "desc": "Web application Automation for products and services.",
       "url": "web-automation",
-      "image": "/assets/images/wooden-robot.jpg",
+      "image": "/assets/images/dist/wooden-robot.jpg",
       "icon": "fa-magic",
       "active": "true"
     },
@@ -62,35 +62,35 @@
       "name": "Web Development",
       "desc": "Typical web products html, js, css",
       "url": "web-development",
-      "image": "/assets/images/code.jpg",
+      "image": "/assets/images/dist/code.jpg",
       "icon": "fa-code"
     },
     {
       "name": "Marketing Automation Solutions",
       "desc": "Typical web products html, js, css",
       "url": "web-marketing",
-      "image": "/assets/images/web-marketing.jpg",
+      "image": "/assets/images/dist/web-marketing.jpg",
       "icon": "fa-crosshairs"
     },
     {
       "name": "Web Design Tools",
       "desc": "Web based css tools",
       "url": "web-design",
-      "image": "/assets/images/design-tools.jpg",
+      "image": "/assets/images/dist/design-tools.jpg",
       "icon": "fa-rocket"
     },
     {
       "name": "Content Management Solutions",
       "desc": "Wordpress, Joomla Theme development",
       "url": "cms",
-      "image": "assets/images/content-settings.jpg",
+      "image": "assets/images/dist/content-settings.jpg",
       "icon": "fa-edit"
     },
     {
       "name": "Application Development",
       "desc": "Moile and web based applications",
       "url": "web-apps",
-      "image": "assets/images/apps-screen.jpg",
+      "image": "assets/images/dist/apps-screen.jpg",
       "icon": "fa-buysellads"
     }
   ],
@@ -112,7 +112,7 @@
           },
           "background":{
             "name": "Starfish project logo",
-            "url": "/assets/images/starfish-project.png"
+            "url": "/assets/images/dist/starfish-project.png"
           }
       }
     },
@@ -126,7 +126,7 @@
       "images": {
           "background":{
             "name": "the Bindel",
-            "url": "/assets/images/thebindel.png"
+            "url": "/assets/images/dist/thebindel.png"
           }
       }
     },
@@ -140,7 +140,7 @@
       "images": {
           "background":{
             "name": "pict sweet background",
-            "url": "/assets/images/pictsweetfarms.png"
+            "url": "/assets/images/dist/pictsweetfarms.png"
           }
       }
     },
@@ -154,7 +154,7 @@
       "images": {
           "background":{
             "name": "the Bindel",
-            "url": "/assets/images/stlgs.png"
+            "url": "/assets/images/dist/stlgs.png"
           }
       }
     },
@@ -168,7 +168,7 @@
         "images": {
             "background":{
               "name": "Stl tech jobs",
-              "url": "/assets/images/stltech-jobs.png"
+              "url": "/assets/images/dist/stltech-jobs.png"
             }
         }
     },
@@ -182,7 +182,7 @@
       "images": {
           "background":{
             "name": "Bonfyre app homepage",
-            "url": "/assets/images/bonfyre-app-homepage.png"
+            "url": "/assets/images/dist/bonfyre-app-homepage.png"
           }
       }
     }

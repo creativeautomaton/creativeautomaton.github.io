@@ -3,16 +3,16 @@
  <!-- Team Members -->
  <div class="row">
      <div class="col-lg-12">
-         <h2 class="page-header">Our Team</h2>
+         <div class="page-header">Our Team</div>
      </div>
     {% for worker in site.data.creativeautomaton.workers %}
      <div class="col-md-4 text-center">
          <div class="thumbnail">
              <img class="img-responsive" src="{{worker.photo }}" alt="{{worker.name }} - {{worker.title }}">
              <div class="caption">
-                 <h3>{{ worker.name }}<br>
+                 <strong class="worker-name">{{ worker.name }}<br>
                      <small> {{worker.title }}</small>
-                 </h3>
+                 </strong>
                  <p>{{ worker.description }}</p>
                  <ul class="list-inline">
                      <li><a href="{{ worker.facebook }}" target="_blank"><i class="fa fa-2x fa-facebook-square"></i></a>

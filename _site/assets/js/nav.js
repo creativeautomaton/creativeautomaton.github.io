@@ -66,10 +66,10 @@ $( document ).ready(function() {
          $('.title').removeClass('hide');
          $('#hero .container').addClass('done');
 
-         var heroTitles = $('.title span').length;
+         var heroTitles = $('.title h2').length;
          var titleNumber = Math.floor(Math.random() * heroTitles);
 
-         $('.title span').hide().eq(titleNumber).show();
+         $('.title h2').hide().eq(titleNumber).show();
 
           console.log(titleNumber, heroTitles);
 
