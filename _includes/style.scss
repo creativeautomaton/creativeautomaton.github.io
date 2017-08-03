@@ -1,4 +1,6 @@
 
+@import "components/bootstrap";
+
 @import "base/variables";
 @import "base/normalize";
 @import "base/syntax";
@@ -32,7 +34,7 @@
 @import "components/hcard";
 @import url('https://fonts.googleapis.com/css?family=Roboto:700');
 
-@import "components/bootstrap";
+
 // @import "components/agency";
 @import "components/portfolio";
 @import "components/services";
@@ -40,6 +42,8 @@
 
 // Animate CSS
 @import "animations/animate";
+@import "animations/motion";
+
 
 // font-awesome
 @import "font-awesome/variables";

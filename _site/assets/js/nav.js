@@ -97,11 +97,13 @@ $( document ).ready(function() {
               //stuff to do on mouse enter
                $('span.fa-stack', this).addClass('bounce');
                $('.get-quote', this).addClass('pulse').removeClass('btn-primary').addClass('btn-danger');
+               $('.bg-image', this).addClass('pan-bg');
           },
           mouseleave: function () {
               //stuff to do on mouse leave
               $('span.fa-stack', this).removeClass('bounce');
               $('.get-quote', this).addClass('btn-primary').removeClass('btn-danger pulse');
+              $('.bg-image', this).removeClass('pan-bg');
           }
       });
 
@@ -129,5 +131,7 @@ $( document ).ready(function() {
             $('.portfolio .animated').removeClass('hide');
          }
     });
+
+
 
 });

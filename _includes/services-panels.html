@@ -11,7 +11,8 @@
                     {% for service in site.data.creativeautomaton.services %}
                      <div class="col-md-4 col-sm-6 hide animated bounceIn">
                          <div class="panel panel-default text-center">
-                             <div class="panel-heading"  style="background: url('{{service.image}}'); background-size: cover;">
+                             <div class="panel-heading">
+                                <div class="bg-image"  style="background-image: url('{{service.image}}');"></div>
                                  <span class="fa-stack fa-5x animated ">
                                        <i class="fa fa-circle fa-stack-2x text-info"></i>
                                        <i class="fa {{service.icon}} fa-stack-1x fa-inverse"></i>
