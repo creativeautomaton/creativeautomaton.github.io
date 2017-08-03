@@ -9,7 +9,7 @@
                  </div>
                 <div class="service-panels">
                     {% for service in site.data.creativeautomaton.services %}
-                     <div class="col-md-4 col-sm-6 hide animated bounceIn">
+                     <div class="col-xs-12 col-sm-4 service animated bounceIn">
                          <div class="panel panel-default text-center">
                              <div class="panel-heading">
                                 <div class="bg-image"  style="background-image: url('{{service.image}}');"></div>
@@ -19,13 +19,12 @@
                                  </span>
                              </div>
                              <div class="panel-body">
-                                 <strong class="service-name">{{service.name}}</strong>
+                                 <h2 class="service-name">{{service.name}}</h2>
                                  <p>{{service.desc}}</p>
-                                 <a href="services/{{service.url}}" class="btn btn-secondary">
-                                  Learn More </a>
-                                 <p>or</p>
+                                 <a href="services/{{service.url}}" class="btn btn-secondary" title="{{service.name}}">
+                                  Learn More about {{service.name}} </a>
                                  <a href="#form-modal-1" class="btn btn-primary get-quote animated" data-toggle="modal">
-                                  Hire Us For {{service.name}}</a>
+                                  Hire {{site.name}} For {{service.name}}</a>
                              </div>
                          </div>
                      </div>
