@@ -1,16 +1,20 @@
 <section id="hero">
 
-  <video class="fadeIn animated very-fast" src="/assets/video/shiny_metal_cubes.mp4" autoplay loop > </video>
+  <!-- <video class="fadeIn animated very-fast" src="/assets/video/shiny_metal_cubes.mp4" autoplay loop > </video> -->
+  <div class="image-pan animate fadeIn" style="background: url('/assets/images/wooden-robot.jpg'); background-size: cover;"> </div>
   <div class="container">
       <h1 class="logo hide fast">Creative Automaton</h1>
       <p class="description hide">{{ site.bio }}</p>
       <div class="title hide">
-
           {% for tagline in site.data.creativeautomaton.taglines %}
-               <h2 data-order="{{tagline.order}} "> {{tagline.desc}} </h2>  
+                <h2 data-order="{{tagline.order}} "> {{tagline.desc}} </h2>
           {% endfor %}
+           {% for tagline in site.data.creativeautomaton.taglines %}
+                 <p data-order="{{tagline.order}} "> {{tagline.full_desc}} </p>
+           {% endfor %}
+
      </div>
-      <p>
+      <p class="container">
         <a href="#portfolio">
           <i class="fa fa-arrow-circle-o-down fa-4x fa-inverse"></i>
         </a>

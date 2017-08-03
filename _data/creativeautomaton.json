@@ -38,15 +38,18 @@
   "taglines":  [
        {
         "order": 1,
-        "desc": "A Digital Automation Cooperative."
+        "desc": "A Digital Automation Cooperative.",
+        "full_desc": "We build any automated web system you can thing of, Automated Marketing Tools to Automated Notifications"
        },
        {
         "order": 2,
-        "desc": "A Web Development Company"
+        "desc": "A Web Development Company",
+        "full_desc": "Providing web development tools, web apps, and web data services from professional web freelancers."
        },
        {
         "order": 3,
-        "desc": "Re-Distributed Web Applications"
+        "desc": "Distributed Cloud Applications",
+        "full_desc": "Coding Distributed Web Apps, using Amazon Web Services, Rackspace, Digital Ocean & more"
        }
     ],
   "services":  [

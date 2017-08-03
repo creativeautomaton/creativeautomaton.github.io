@@ -155,6 +155,7 @@ $( document ).ready(function() {
          var titleNumber = Math.floor(Math.random() * heroTitles);
 
          $('.title h2').hide().eq(titleNumber).show();
+         $('.title p').hide().eq(titleNumber).show();
 
           console.log(titleNumber, heroTitles);
 

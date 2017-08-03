@@ -3,6 +3,7 @@
   height: 100vh
   // max-height: 640px
   overflow: hidden
+  width: 100vw
 
   > video
     position: absolute
@@ -54,15 +55,18 @@
 
       > h2
         font-size: 6vw
+        font-weight: bold
 
       > p
-        font-size: 8rem
+        font-size: 3vw
         color: #fff
         font-weight: 400
         margin: 0px
-        padding: 0rem
+        padding: 0px 14vw 0px 0px
         display: inline-block
         letter-spacing: -.02em
+        line-height: 1.2em
+
 
   > .done
     -webkit-align-content: baseline
@@ -95,4 +99,35 @@
       font-size: 7vw
       color: #fff
       font-weight: 400
-      padding: 15% 0px
+      padding: 5% 0px
+
+  > .image-pan
+    display: block
+    width: calc(100vw + 200px)
+    height: calc(100% + 200px)
+    position: absolute
+    animation: expandX 12s linear 0s infinite alternate, expandY 12s linear 0s infinite alternate
+
+@keyframes expandX
+  0%
+    background-position: 0px 0px
+  100%
+    background-position: -100px -100px
+
+@keyframes expandY
+  0%
+    background-position: 0px 0px
+  100%
+    background-position: -100px -100px
+
+@keyframes moveX
+  0%
+    left: 0
+  100%
+    left: -10px
+
+@keyframes moveY
+  0%
+    top: 0
+  100%
+    top: 10px
