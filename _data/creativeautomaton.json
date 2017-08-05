@@ -56,7 +56,7 @@
     {
       "name": "Web Automation",
       "desc": "Web application Automation for products and services.",
-      "url": "web-automation",
+      "url": "/services/web-automation",
       "image": "/assets/images/dist/wooden-robot.jpg",
       "icon": "fa-magic",
       "active": "true"
@@ -64,35 +64,35 @@
     {
       "name": "Web Development",
       "desc": "Typical web products html, js, css",
-      "url": "web-development",
+      "url": "/services/web-development",
       "image": "/assets/images/dist/code.jpg",
       "icon": "fa-code"
     },
     {
       "name": "Marketing Automation Solutions",
       "desc": "Typical web products html, js, css",
-      "url": "web-marketing",
+      "url": "/services/marketing",
       "image": "/assets/images/dist/web-marketing.jpg",
       "icon": "fa-crosshairs"
     },
     {
       "name": "Web Design Tools",
       "desc": "Web based css tools",
-      "url": "web-design",
+      "url": "/services/web-design",
       "image": "/assets/images/dist/design-tools.jpg",
       "icon": "fa-rocket"
     },
     {
       "name": "Content Management Solutions",
       "desc": "Wordpress, Joomla Theme development",
-      "url": "cms",
+      "url": "/services/content-management",
       "image": "assets/images/dist/content-settings.jpg",
       "icon": "fa-edit"
     },
     {
       "name": "Application Development",
       "desc": "Moile and web based applications",
-      "url": "web-apps",
+      "url": "/services/application-development",
       "image": "assets/images/dist/apps-screen.jpg",
       "icon": "fa-buysellads"
     }
