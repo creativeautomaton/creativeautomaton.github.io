@@ -12,6 +12,7 @@ $( document ).ready(function() {
          url: "/assets/creativeautomaton.json",
          dataType: "json",
          cache: true,
+         async: false,
          success: function (data){
               siteData(data);
          },
