@@ -11,6 +11,7 @@ $( document ).ready(function() {
      $.ajax({
          url: "/assets/creativeautomaton.json",
          dataType: "json",
+         cache: true,
          success: function (data){
               siteData(data);
          },
