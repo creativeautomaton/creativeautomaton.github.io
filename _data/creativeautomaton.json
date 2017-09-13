@@ -86,14 +86,14 @@
       "name": "Content Management Solutions",
       "desc": "Wordpress, Joomla Theme development",
       "url": "/services/content-management",
-      "image": "assets/images/dist/content-settings.webp",
+      "image": "/assets/dist/webp/content-settings.webp",
       "icon": "fa-edit"
     },
     {
       "name": "Application Development",
       "desc": "Moile and web based applications",
       "url": "/services/application-development",
-      "image": "assets/images/dist/apps-screen.webp",
+      "image": "/assets/dist/webp/apps-screen.webp",
       "icon": "fa-buysellads"
     }
   ],
