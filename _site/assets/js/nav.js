@@ -1,18 +1,10 @@
 
 $( document ).ready(function() {
-    console.log( "Jquery ready!" );
-
-      // var portfolioCount = $('#portfolio .row .col-sm-4');
-      // console.log(portfolioCount.length);
-      // if(portfolioCount.length > 3){
-      //    $('#portfolio .row .col-sm-4').wrap("<div class='row'></div> ");
-      // }
+    console.log( "jQuery ready!" );
 
      $.ajax({
-         url: "/assets/creativeautomaton.json",
+         url: "../assets/creativeautomaton.json",
          dataType: "json",
-         cache: true,
-         async: false,
          success: function (data){
               siteData(data);
          },
@@ -109,7 +101,7 @@ $( document ).ready(function() {
           }
       });
 
-
+    // $(document).html().replace('[at]', '@');
 
 
     $(document).on('scroll', function(){

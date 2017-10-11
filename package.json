@@ -4,23 +4,20 @@
   "description": "Cooperative site",
   "main": "gulpfile.js",
   "repository": {
-  "type": "git",
-  "url": "git://github.com/creativeautomaton/creativeautomaton.github.io.git"
-},
+    "type": "git",
+    "url": "git://github.com/creativeautomaton/creativeautomaton.github.io.git"
+  },
   "dependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "imagemin-webp": "^4.0.0"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
-    "gulp-batch": "^1.0.5",
     "gulp-concat": "^2.6.1",
-    "gulp-imagemin": "^3.2.0",
-    "gulp-ruby-sass": "^2.1.1",
+    "gulp-cwebp": "^2.2.1",
     "gulp-sourcemaps": "^2.4.1",
-    "gulp-uglify": "^2.1.2",
-    "gulp-watch": "^4.3.11",
-    "pump": "^1.0.2"
-  }, 
+    "tinify": "*"
+  },
   "author": "Zachary Kraft",
   "license": "ISC"
 }
