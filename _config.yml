@@ -49,6 +49,7 @@ gems:
   - jemoji
   - jekyll-sitemap
 jekyll-mentions:
+destination: sited
 base_url: 'https://github.com'
  # exclude my node related stuff
 exclude: ['package.json', 'node_modules', 'gulpfile.js']

@@ -1,5 +1,15 @@
    <!-- Custom Theme JavaScript -->
 
+   //
+   //  Get collections
+       fetch('http://creativeautomaton.com/automaton-cms/cockpit/api/collections/get/automatonProjects?token=0da9f39f2bfbddf283ff8da1e2ef71')
+         .then(function(response) {
+           return response.json();
+         })
+         .then(function(myJson) {
+           console.log(myJson);
+         });
+
    // Closes the sidebar menu
    $("#menu-close").click(function(e) {
        e.preventDefault();
