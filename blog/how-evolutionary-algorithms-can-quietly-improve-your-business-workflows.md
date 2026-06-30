@@ -11,4 +11,3 @@ For freelancers, that can become a hidden advantage. Imagine a harness that test
 The best part is that evolutionary algorithms fit naturally with local LLM agents. You can run the tests on your own machine, avoid expensive per-token cloud usage, and keep the process private. That matters when your data is sensitive or your workflow is proprietary. The result is a business system that keeps improving in the background while you focus on clients and sales.
 
 # 
-
