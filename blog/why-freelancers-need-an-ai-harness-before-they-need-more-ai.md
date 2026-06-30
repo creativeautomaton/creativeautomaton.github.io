@@ -10,3 +10,7 @@ That leads to the biggest business benefit: a harness helps you treat AI like in
 
 For freelancers and small businesses, the message is simple: if you want AI to actually help your business, start with the harness. That one layer turns scattered experiments into something you can trust, charge for, and improve.
 
+# 
+If you're ready to turn these ideas into something practical for your business, take the next step and see how it could fit your workflow.
+
+[Find Out More](#contact)
